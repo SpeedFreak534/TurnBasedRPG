@@ -356,6 +356,7 @@
 "Assets/Scripts/Character/CharacterEffects.cs"
 "Assets/Scripts/Character/CharacterUI.cs"
 "Assets/Scripts/Character/DamageFlash.cs"
+"Assets/Scripts/Managers/GameManager.cs"
 -langversion:9.0
 
 /deterministic
