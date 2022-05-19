@@ -56,4 +56,22 @@ public class TurnManager : MonoBehaviour
 
         endTurnButton.SetActive(character.team == Character.Team.Player);
     }
+    
+    public void EndTurn()
+    {
+        curTurnOrderIndex++;
+
+        if (curTurnOrderIndex == turnOrder.Count)
+            curTurnOrderIndex = 0;
+
+        while(turnOrder[curTurnOrderIndex] == null)
+        {
+            curTurnOrderIndex++;
+
+            if (curTurnOrderIndex == turnOrder.Count)
+                curTurnOrderIndex = 0;
+        }
+
+        NewTurn(turnOrder[curTurnOrderIndex]);
+    }
 }
