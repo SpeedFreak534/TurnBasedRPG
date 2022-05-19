@@ -356,6 +356,11 @@
 "Assets/Scripts/Character/CharacterEffects.cs"
 "Assets/Scripts/Character/CharacterUI.cs"
 "Assets/Scripts/Character/DamageFlash.cs"
+"Assets/Scripts/Combat Actions/CombatAction.cs"
+"Assets/Scripts/Combat Actions/EffectCombatAction.cs"
+"Assets/Scripts/Combat Actions/HealCombatAction.cs"
+"Assets/Scripts/Combat Actions/MeleeCombatAction.cs"
+"Assets/Scripts/Combat Actions/RangedCombatAction.cs"
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/TurnManager.cs"
 -langversion:9.0
