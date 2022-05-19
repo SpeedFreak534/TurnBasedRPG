@@ -363,6 +363,8 @@
 "Assets/Scripts/Combat Actions/RangedCombatAction.cs"
 "Assets/Scripts/Managers/GameManager.cs"
 "Assets/Scripts/Managers/TurnManager.cs"
+"Assets/Scripts/UI/CombatActionButton.cs"
+"Assets/Scripts/UI/CombatActionsUI.cs"
 -langversion:9.0
 
 /deterministic
