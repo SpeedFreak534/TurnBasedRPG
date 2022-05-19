@@ -74,4 +74,9 @@ public class TurnManager : MonoBehaviour
 
         NewTurn(turnOrder[curTurnOrderIndex]);
     }
+
+    public Character GetCurrentTurnCharacter()
+    {
+        return curTurnCharacter;
+    }
 }
