@@ -239,10 +239,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0511f04d592c20740950b1eebe23ac11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 0}
-  buttons: []
-  descriptionPanel: {fileID: 0}
-  descriptionText: {fileID: 0}
+  panel: {fileID: 1993153436}
+  buttons:
+  - {fileID: 1311887417}
+  - {fileID: 918465882}
+  - {fileID: 714101840}
+  - {fileID: 2041423517}
+  descriptionPanel: {fileID: 1998948688}
+  descriptionText: {fileID: 48323611}
 --- !u!1 &48323609
 GameObject:
   m_ObjectHideFlags: 0
@@ -3107,7 +3111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1998948689
 RectTransform:
   m_ObjectHideFlags: 0
