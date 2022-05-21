@@ -41,6 +41,7 @@ public class CombatActionsUI : MonoBehaviour
             if(i < character.combatActions.Length)
             {
                 buttons[i].gameObject.SetActive(true);
+                buttons[i].SetCombatAction(character.combatActions[i]);
             }
             else
             {

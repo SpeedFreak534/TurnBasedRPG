@@ -14,4 +14,25 @@ public class CombatActionButton : MonoBehaviour
     {
         ui = FindObjectOfType<CombatActionsUI>();
     }
+
+    public void SetCombatAction(CombatAction ca)
+    {
+        combatAction = ca;
+        nameText.text = ca.displayName;
+    }
+
+    public void OnClick()
+    {
+
+    }
+
+    public void OnHoverEnter()
+    {
+        ui.SetCombatActionDescription(combatAction);
+    }
+
+    public void OnHoverExit()
+    {
+        ui.DisableCombatActionDescription();
+    }
 }

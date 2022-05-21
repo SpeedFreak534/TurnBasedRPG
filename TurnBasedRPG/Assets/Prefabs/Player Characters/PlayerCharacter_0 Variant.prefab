@@ -45,12 +45,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8804055854766664283, guid: a0d6cefff9100ea4ea4fa438a23ef2a7, type: 3}
       propertyPath: combatActions.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8804055854766664283, guid: a0d6cefff9100ea4ea4fa438a23ef2a7, type: 3}
       propertyPath: combatActions.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 42217870e497a254bb461fa2dee3f488, type: 2}
+    - target: {fileID: 8804055854766664283, guid: a0d6cefff9100ea4ea4fa438a23ef2a7, type: 3}
+      propertyPath: combatActions.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: c82137e515209644e82706bc1fa234b1, type: 2}
+    - target: {fileID: 8804055854766664283, guid: a0d6cefff9100ea4ea4fa438a23ef2a7, type: 3}
+      propertyPath: combatActions.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 477a557f74228454f9c27b71ee2d3736, type: 2}
     - target: {fileID: 8804055854766664286, guid: a0d6cefff9100ea4ea4fa438a23ef2a7, type: 3}
       propertyPath: m_RootOrder
       value: 0
